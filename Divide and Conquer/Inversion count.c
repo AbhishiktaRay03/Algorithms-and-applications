@@ -1,4 +1,6 @@
-// Online C compiler to run C program online
+// Inversion Count for an array indicates – how far (or close) the array is from being sorted. If the array is already sorted, then the inversion count is 0, but if the array is sorted in reverse order, the inversion count is the maximum. 
+
+//Given an array arr[]. The task is to find the inversion count of arr[]. Where two elements arr[i] and arr[j] form an inversion if a[i] > a[j] and i < j.
 #include <stdio.h>
 int merge(int arr[],int temp[],int left,int mid,int right)
 {
